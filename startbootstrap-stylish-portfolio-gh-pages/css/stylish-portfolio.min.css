@@ -35,9 +35,10 @@
     height:auto;
     padding-top:8rem;
     padding-bottom:8rem;
-    background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/designer-drawing-website-mockup.jpg);
+    background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/dor.jpg);
     background-position:center center;background-repeat:no-repeat;background-size:cover}
-    .masthead h1{font-size:4rem;margin:0;padding:0}
+    .masthead h1{font-size:4rem;margin:0;padding:0; color: white;}
+    .masthead h3{color: white;}
     @media (min-width:992px){.masthead{height:100vh}
     .masthead h1{font-size:5.5rem}}
     #sidebar-wrapper{position:fixed;
@@ -119,7 +120,7 @@
                                                         top:0;
                                                         bottom:0;
                                                         z-index:1}
-                                                        .portfolio-item .caption .caption-content{color:black;
+                                                        .portfolio-item .caption .caption-content{color:white;
                                                             margin:auto 2rem 2rem}
                                                             .portfolio-item .caption .caption-content h2{font-size:.8rem;
                                                                 text-transform:uppercase}
