@@ -314,6 +314,7 @@ h1, h2, h3, h4, h5, h6
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
+  
   .portfolio-item img 
   {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
