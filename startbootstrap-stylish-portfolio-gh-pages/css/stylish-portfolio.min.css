@@ -248,7 +248,7 @@
 {
     color:white;
     margin:auto 2rem 2rem;
-    color: darkviolet;
+    
 }
 
 .portfolio-item .caption .caption-content h2
@@ -289,11 +289,18 @@
         -webkit-transition:-webkit-clip-path .25s ease-out;
         -webkit-clip-path:inset(-1px);
         clip-path:inset(-1px);
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        
     }
     .portfolio-item:hover img
     {
         -webkit-clip-path:inset(2rem);
         clip-path:inset(2rem);
+        
     }
     .portfolio-item:hover .caption
     {
